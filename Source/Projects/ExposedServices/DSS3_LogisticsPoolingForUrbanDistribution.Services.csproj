@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Copyright>Copyright © CLMS 2018</Copyright>
+    <Company>CLMS</Company>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AssemblyName>DSS3_LogisticsPoolingForUrbanDistribution.Services</AssemblyName>
+    <RootNamespace>DSS3_LogisticsPoolingForUrbanDistribution</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.2'">
+    <DefineConstants>$(DefineConstants);NETSTANDARD</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="system.Runtime.Serialization" />
+    <Reference Include="system.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CostModel\CostModelDataContracts.cs" />
+    <Compile Include="CostModel\CostModelService.cs" />
+    <Compile Include="CostModel\ICostModelService.cs" />
+    <Compile Include="DataSeed\DataSeedDataContracts.cs" />
+    <Compile Include="DataSeed\DataSeedService.cs" />
+    <Compile Include="DataSeed\IDataSeedService.cs" />
+    <Compile Include="KPIInit\IKPIInitService.cs" />
+    <Compile Include="KPIInit\KPIInitDataContracts.cs" />
+    <Compile Include="KPIInit\KPIInitService.cs" />
+    <Compile Include="KPIService\IKPIServiceService.cs" />
+    <Compile Include="KPIService\KPIServiceDataContracts.cs" />
+    <Compile Include="KPIService\KPIServiceService.cs" />
+    <Compile Include="RA\IRAService.cs" />
+    <Compile Include="RA\RADataContracts.cs" />
+    <Compile Include="RA\RAService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Http">
+      <Private>True</Private>
+      <HintPath>..\..\Projects\Lib\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <Private>True</Private>
+      <HintPath>..\..\Projects\Lib\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="zAppDev.DotNet.Framework">
+      <Private>True</Private>
+      <HintPath>..\..\Projects\Lib\zAppDev.DotNet.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="3.3.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Projects\Domain\POCO\DSS3_LogisticsPoolingForUrbanDistribution.Backend.csproj" />
+    <ProjectReference Include="..\..\Projects\ExternalStructs\ExternalStructs.csproj" />
+  </ItemGroup>
+</Project>

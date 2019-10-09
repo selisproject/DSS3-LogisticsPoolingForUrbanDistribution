@@ -1,0 +1,268 @@
+{
+  "Entries": {
+    "OP|Shipment|Get_CurrentStatus": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.Get_CurrentStatus",
+      "Lines": {}
+    },
+    "OP|Shipment|MaxVolume": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.MaxVolume",
+      "Lines": {}
+    },
+    "OP|Shipment|Get_AverageVolume": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.Get_AverageVolume",
+      "Lines": {}
+    },
+    "OP|Shipment|GetVolumeSpread": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.GetVolumeSpread",
+      "Lines": {}
+    },
+    "OP|Shipment|OrderFits": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.OrderFits",
+      "Lines": {}
+    },
+    "OP|Shipment|PrintPath": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.PrintPath",
+      "Lines": {}
+    },
+    "OP|Shipment|GetCostSplit": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.GetCostSplit",
+      "Lines": {}
+    },
+    "OP|Shipment|CalculatePathTime": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.CalculatePathTime",
+      "Lines": {}
+    },
+    "OP|Shipment|CalculatePathDistance": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.CalculatePathDistance",
+      "Lines": {}
+    },
+    "OP|Shipment|CalculatePathCost": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShipmentExtensions.CalculatePathCost",
+      "Lines": {}
+    },
+    "OP|Point|GetLocation": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PointExtensions.GetLocation",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|NewOperation": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.NewOperation",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|NewOperation1": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.NewOperation1",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|Get_CurrentStatus": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.Get_CurrentStatus",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|CalculateOrderCost": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.CalculateOrderCost",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|Get_AggregateLoad": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.Get_AggregateLoad",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|Get_AggregateVolume": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.Get_AggregateVolume",
+      "Lines": {}
+    },
+    "OP|ShippingOrder|ChangeStatus": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ShippingOrderExtensions.ChangeStatus",
+      "Lines": {}
+    },
+    "OP|DistanceCosts|SetCost": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.DistanceCostsExtensions.SetCost",
+      "Lines": {}
+    },
+    "OP|TimeCosts|SetCost": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.TimeCostsExtensions.SetCost",
+      "Lines": {}
+    },
+    "OP|OwnershipCost|SetCost": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OwnershipCostExtensions.SetCost",
+      "Lines": {}
+    },
+    "OP|CustomVolume|Compare": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.CustomVolumeExtensions.Compare",
+      "Lines": {}
+    },
+    "OP|CustomVolume|CustomCopy": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.CustomVolumeExtensions.CustomCopy",
+      "Lines": {}
+    },
+    "OP|Comment|GetByGUID": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.CommentExtensions.GetByGUID",
+      "Lines": {}
+    },
+    "OP|OrderStatistics|Initialize": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderStatisticsExtensions.Initialize",
+      "Lines": {}
+    },
+    "OP|OrderStatistics|GetStats": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderStatisticsExtensions.GetStats",
+      "Lines": {}
+    },
+    "OP|OrderWMS|GetOrders": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.GetOrders",
+      "Lines": {}
+    },
+    "OP|OrderWMS|GetTopRAs": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.GetTopRAs",
+      "Lines": {}
+    },
+    "OP|OrderWMS|GetTopDepositors": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.GetTopDepositors",
+      "Lines": {}
+    },
+    "OP|OrderWMS|AssignOrdersTrucks": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.AssignOrdersTrucks",
+      "Lines": {}
+    },
+    "OP|OrderWMS|Publish": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.Publish",
+      "Lines": {}
+    },
+    "OP|OrderWMS|CopyFields": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.CopyFields",
+      "Lines": {}
+    },
+    "OP|OrderWMS|GetOnTime": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.GetOnTime",
+      "Lines": {}
+    },
+    "OP|OrderWMS|NewOperation": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderWMSExtensions.NewOperation",
+      "Lines": {}
+    },
+    "OP|Warehouse|InitWarehouse": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.WarehouseExtensions.InitWarehouse",
+      "Lines": {}
+    },
+    "OP|RegionalAgent|InitAddressGeocoordinates": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.RegionalAgentExtensions.InitAddressGeocoordinates",
+      "Lines": {}
+    },
+    "OP|Truck|NewOperation": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.TruckExtensions.NewOperation",
+      "Lines": {}
+    },
+    "OP|OrdersPerMonth|GroupOrders": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrdersPerMonthExtensions.GroupOrders",
+      "Lines": {}
+    },
+    "OP|OrdersPerMonth|GroupRAOrders": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrdersPerMonthExtensions.GroupRAOrders",
+      "Lines": {}
+    },
+    "OP|MapPoints|InitMapPoints": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.MapPointsExtensions.InitMapPoints",
+      "Lines": {}
+    },
+    "OP|MapPoints|OrderDirections": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.MapPointsExtensions.OrderDirections",
+      "Lines": {}
+    },
+    "OP|OrderGenerator|GenerateOrders": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.OrderGeneratorExtensions.GenerateOrders",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeOrders": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeOrders",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeGPS": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeGPS",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeRecommendation": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeRecommendation",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeAVGTime": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeAVGTime",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeETA": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeETA",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeNTUAETA": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeNTUAETA",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeNTUAAVGTime": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeNTUAAVGTime",
+      "Lines": {}
+    },
+    "OP|PubSub|SubscribeCOE": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.PubSubExtensions.SubscribeCOE",
+      "Lines": {}
+    },
+    "OP|Utils|InitPubMessage": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.InitPubMessage",
+      "Lines": {}
+    },
+    "OP|Utils|DesirializePubMessage": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.DesirializePubMessage",
+      "Lines": {}
+    },
+    "OP|Utils|InitOrderWMS": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.InitOrderWMS",
+      "Lines": {}
+    },
+    "OP|Utils|DeserializeMessage": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.DeserializeMessage",
+      "Lines": {}
+    },
+    "OP|Utils|InitTruckPositions": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.InitTruckPositions",
+      "Lines": {}
+    },
+    "OP|Utils|ConvertToTimestampFormat": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.UtilsExtensions.ConvertToTimestampFormat",
+      "Lines": {}
+    },
+    "OP|GPSLocation|Publish": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.GPSLocationExtensions.Publish",
+      "Lines": {}
+    },
+    "OP|DashboardStatistics|CalculatePoDStats": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.DashboardStatisticsExtensions.CalculatePoDStats",
+      "Lines": {}
+    },
+    "OP|ScheduledRouteTemplate|GetTemplatesRA": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ScheduledRouteTemplateExtensions.GetTemplatesRA",
+      "Lines": {}
+    },
+    "OP|ScheduledRouteTemplate|GetAvailableRATemplates": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ScheduledRouteTemplateExtensions.GetAvailableRATemplates",
+      "Lines": {}
+    },
+    "OP|ScheduledRouteTemplate|GetTemplatesFromLSP": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ScheduledRouteTemplateExtensions.GetTemplatesFromLSP",
+      "Lines": {}
+    },
+    "OP|ScheduledRouteTemplate|GetAvailableLSPTemplates": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ScheduledRouteTemplateExtensions.GetAvailableLSPTemplates",
+      "Lines": {}
+    },
+    "OP|ScheduledRoute|GetHistoricalRoutes": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.ScheduledRouteExtensions.GetHistoricalRoutes",
+      "Lines": {}
+    },
+    "OP|WorkContract|GetMyWorkContracts": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.WorkContractExtensions.GetMyWorkContracts",
+      "Lines": {}
+    },
+    "OP|FileData|GetAbsolutePath": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.FileDataExtensions.GetAbsolutePath",
+      "Lines": {}
+    },
+    "OP|FileData|GetThumbnail": {
+      "GeneratedSymbol": "DSS3_LogisticsPoolingForUrbanDistribution.BO.FileDataExtensions.GetThumbnail",
+      "Lines": {}
+    }
+  }
+}
